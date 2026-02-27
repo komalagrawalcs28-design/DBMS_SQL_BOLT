@@ -9,5 +9,5 @@ WHERE title LIKE "Toy Story%";
 SELECT title, director FROM movies 
 WHERE director = "John Lasseter";
 --Find all the WALL-* movies
-SELECT title, director FROM movies 
-WHERE director != "John Lasseter";
+SELECT * FROM movies 
+WHERE title LIKE "WALL-_";
